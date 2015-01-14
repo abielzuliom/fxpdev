@@ -5,7 +5,10 @@ author: AdFad666
 image: http://fxpblog.co/wp-content/uploads/2014/12/Merry-Christmas-Apps.jpg
 excerpt: We recently wrote about AOSP repos available from Sony Mobile for many Xperia devices. Today, just in time for Christmas, we are starting AOSP Lollipop nightly builds. All devices previously mentioned to get AOSP Lollipop...
 ---
-
+<div>a</div>
+<div>b</div>
+<div>c</div>
+<div>d</div>
 We recently wrote about <a href="/releases/aosp-for-xperia-e3-m2-t3-and-t2-ultra-now-available-from-sony/" title="" target="">AOSP repos available from Sony Mobile</a> for many Xperia devices.
 
 Today, just in time for Christmas, we are starting AOSP Lollipop nightly builds.
