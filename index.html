@@ -6,9 +6,17 @@ title: News for Sony Mobile Xperia devices, CyanogenMod, and Android.
 {% for post in site.posts %}
 <paper-shadow style="border-radius: 5px;">
 <div class="blog_post" style="border-radius: 5px;">
-	<h1><a href="{{ post.url}}" title="{{ post.title }}">{{ post.title }}</a></h1>
-	{{ post.summary }}
-	<p class="read-arrow"><a href="{{ post.url }}">Learn more. &rarr;</a></p>
+	<img style="width:100%; max-height:600px;" src="{{ post.image }}"></img>
+	<h1>{{ post.title }}</h1>
+	{{ post.excerpt }}
+	<div style="margin-top: 20px;">
+		<a href="{{ post.url }}">
+			<paper-button raised>
+				<core-icon icon="forward"></core-icon>
+				Learn more
+			</paper-button>
+		</a>
+	</div>
 </div>
 </paper-shadow>
 {% endfor %}

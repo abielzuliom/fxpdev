@@ -2,7 +2,8 @@
 layout: default
 title: "AOSP Lollipop release from FXP, just in time for Christmas!"
 author: AdFad666
-summary: Here I'm proving that different layouts work just fine. This really is amazingly flexible and easy-to-use.
+image: http://fxpblog.co/wp-content/uploads/2014/12/Merry-Christmas-Apps.jpg
+excerpt: We recently wrote about AOSP repos available from Sony Mobile for many Xperia devices. Today, just in time for Christmas, we are starting AOSP Lollipop nightly builds. All devices previously mentioned to get AOSP Lollipop...
 ---
 
 We recently wrote about <a href="/releases/aosp-for-xperia-e3-m2-t3-and-t2-ultra-now-available-from-sony/" title="" target="">AOSP repos available from Sony Mobile</a> for many Xperia devices.
