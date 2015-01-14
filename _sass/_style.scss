@@ -37,6 +37,15 @@ core-menu > core-item.core-selected {
   background: #e1f5fe;
 }
 
+.content_padding_outer {
+   margin: auto 20px;
+}
+
+.content_padding_inner {
+   margin: auto auto;
+   max-width: 860px;
+}
+
 .blog_post {
   background-color: white;
   margin: 20px auto;
