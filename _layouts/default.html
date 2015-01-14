@@ -1,18 +1,25 @@
 {% include top.html %}
 
-<body unresolved>
-<core-scaffold>
+<body unresolved fullbleed>
+<core-scaffold id="scaffold">
 
 {% include menu.html %}
 
 <!-- Main title -->
-<div tool>
-    {{ page.title }}
-</div>
+<!-- flex makes the bar span across the top of the main content area -->
+<core-toolbar tool flex>
+    <!-- flex spaces this element and jusifies the icons to the right-side -->
+    <div flex>Application</div>
+    <core-icon-button icon="refresh"></core-icon-button>
+    <core-icon-button icon="add"></core-icon-button>
+</core-toolbar>
 
 <!-- Main Content -->
-<div>
-    {{ content }}
+<div layout horizontal center-center fit>
+    <!-- fill with pages -->
+			<section class="content row">
+			{{ content }}
+			</section>
 </div>
 
 </core-scaffold>

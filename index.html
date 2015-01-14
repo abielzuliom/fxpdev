@@ -1,12 +1,10 @@
 ---
 layout: default
 title: News for Sony Mobile Xperia devices, CyanogenMod, and Android.
-overview: true
 ---
 
-<!-- News Articles -->
-<div class="news">
-    {% for post in site.posts %}
-        {% include news_item.html %}
-    {% endfor %}
-</div>
+{% for post in site.posts %}
+	<h1><a href="{{ post.url}}" title="{{ post.title }}">{{ post.title }}</a></h1>
+	{{ post.summary }}
+	<p class="read-arrow"><a href="{{ post.url }}">Learn more. &rarr;</a></p>
+{% endfor %}
