@@ -57,3 +57,25 @@ core-menu > core-item.core-selected {
   min-width:calc(50% - 2px);
   max-width:400px;
 }
+
+@media only screen and (max-width: 960px) {
+  .device_content {
+    display: inline-block;
+    min-width:100%;
+    max-width:400px;
+  }
+}
+.device_content table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.device_content table tr.alt {
+  background-color: #f1f1f1;
+}
+
+.device_content table tr td {
+  padding: 10px;
+}

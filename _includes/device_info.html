@@ -1,47 +1,52 @@
-<img style="width:100%; max-height:600px;" src="{{ page.image }}"></img>
+<img style="width:100%;" src="device.jpg"></img>
 
 <div class="device_content">
     <table>
-        <tr>
-            <td><strong>SoC</strong></td><td>{{ page.soc }}</td>
-        </tr>
-        <tr>
-            <td><strong>CPU</strong></td><td>{{ page.cpu }}</td>
-        </tr>
-        <tr>
-            <td><strong>GPU</strong></td><td>{{ page.gpu }}</td>
-        </tr>
-        <tr>
-            <td><strong>RAM</strong></td><td>{{ page.ram }}</td>
-        </tr>
-        <tr>
-            <td><strong>Storage</strong></td><td>{{ page.storage }}</td>
-        </tr>
-        <tr>
-            <td><strong>Device No.</strong></td><td>{{ page.model }}</td>
-        </tr>
+        <tr><td><strong>SoC</strong></td><td>{{ page.soc }}</td></tr>
+        <tr class="alt"><td><strong>CPU</strong></td><td>{{ page.cpu }}</td></tr>
+        <tr><td><strong>GPU</strong></td><td>{{ page.gpu }}</td></tr>
+        <tr class="alt"><td><strong>RAM</strong></td><td>{{ page.ram }}</td></tr>
+        <tr><td><strong>Storage</strong></td><td>{{ page.storage }}</td></tr>
+        <tr class="alt"><td><strong>Model No.</strong></td><td>{{ page.model }}</td></tr>
     </table>
 </div>
 <div class="device_content">
     <table>
-        <tr>
-            <td><strong>Display</strong></td><td>{{ page.display }}</td>
-        </tr>
-        <tr>
-            <td><strong>Dimensions</strong></td><td>{{ page.dimensions }}</td>
-        </tr>
-        <tr>
-            <td><strong>Camera</strong></td><td>{{ page.camera }}</td>
-        </tr>
-        <tr>
-            <td><strong>Battery</strong></td><td>{{ page.battery }}</td>
-    
-        </tr>
-        <tr>
-            <td><strong>Weight</strong></td><td>{{ page.weight }}</td>
-        </tr>
-        <tr>
-            <td><strong>Codename</strong></td><td>{{ page.codename }}</td>
-        </tr>
+        <tr><td><strong>Display</strong></td><td>{{ page.display }}</td></tr>
+        <tr class="alt"><td><strong>Dimensions</strong></td><td>{{ page.dimensions }}</td></tr>
+        <tr><td><strong>Camera</strong></td><td>{{ page.camera }}</td></tr>
+        <tr class="alt"><td><strong>Battery</strong></td><td>{{ page.battery }}</td></tr>
+        <tr><td><strong>Weight</strong></td><td>{{ page.weight }}</td></tr>
+        <tr class="alt"><td><strong>Codename</strong></td><td>{{ page.codename }}</td></tr>
     </table>
+</div>
+<div class="device_content">
+    <h3>Sony Device Info</h3>
+    <ul>
+        <li><a href="http://blogs.sonymobile.com/press_release/{{ page.sony_press }}/" target="_blank">Press release</a></li>
+        <li><a href="http://www.sonymobile.com/global-en/products/{{ page.sony_product }}/" target="_blank">Product Page</a></li>
+        <li><a href="http://developer.sonymobile.com/products/{{ page.sony_developer }}/" target="_blank">Developer Page</a></li>
+    </ul>
+    <h3>Sony Factory Image</h3>
+    <ul>
+        <li><a href="http://xperiafirmware.com/8-firmware/{{ page.factory_image }}/" target="_blank">XperiaFirmware.com</a></li>
+    </ul>
+</div>
+<div class="device_content">
+    <h3>Downloads</h3>
+    <ul>
+        {% if page.aosp50 == 'y' %}
+        <li><a href="/aosp/aosp-5-0/" target="_blank">Android AOSP</a></li>
+        {% endif %}
+        {% if page.cm12 == 'y' %}
+        <li><a href="/cyanogenmod/cyanogenmod-12/" target="_blank">CyanogenMod 12</a></li>
+        {% endif %}
+        {% if page.cm11 == 'y' %}
+        <li><a href="/cyanogenmod/cyanogenmod-11/" target="_blank">Cyanogenmod 11</a></li>
+        {% endif %}
+    </ul>
+    <h3>Shortlink</h3>
+    <ul>
+        <li><a href="http://af6.eu/{{ page.short_link }}/" target="_blank">af6.eu/{{ page.short_link }}</a></li>
+    </ul>
 </div>
