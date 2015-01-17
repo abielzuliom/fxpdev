@@ -2,9 +2,12 @@
 layout: default
 title: "AOSP Lollipop release from FXP, just in time for Christmas!"
 author: AdFad666
-image: http://fxpblog.co/wp-content/uploads/2014/12/Merry-Christmas-Apps.jpg
+image: /media/posts/2014-12-25-aosp-lollipop-release.jpg
+video: VJX8VUk8dFM
 excerpt: We recently wrote about AOSP repos available from Sony Mobile for many Xperia devices. Today, just in time for Christmas, we are starting AOSP Lollipop nightly builds. All devices previously mentioned to get AOSP Lollipop...
 ---
+
+{% include article_head.html %}
 
 We recently wrote about <a href="/releases/aosp-for-xperia-e3-m2-t3-and-t2-ultra-now-available-from-sony/" title="" target="">AOSP repos available from Sony Mobile</a> for many Xperia devices.
 
@@ -25,5 +28,3 @@ It's clear that Sony Mobile will continue to release new devices next year. FXP 
 Sony Mobile is a pioneer in providing developer support and open source solutions for so many devices. We also hope that in the new year we will see more developers contributing fixes to the official device repos.
 
 See you in 2015!
-
-<img src="http://fxpblog.co/wp-content/uploads/2014/12/Merry-Christmas-Apps.jpg" alt="Merry-Christmas-Apps" style="max-width: 100%" />
