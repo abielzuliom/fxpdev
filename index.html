@@ -21,18 +21,20 @@ title: News for Sony Mobile Xperia devices, CyanogenMod, and Android.
 
 <!-- Pagination links -->
 <div class="pagination">
-	{% if paginator.previous_page %}
-	<paper-button raised class="previous">
-		<core-icon icon="back"></core-icon>
-			<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-	</paper-button>
-	{% endif %}
-
-
 	{% if paginator.next_page %}
-	<paper-button raised class="next">
-		<core-icon icon="back"></core-icon>
-			<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-	</paper-button>
+	<a href="{{ paginator.next_page_path }}" class="next">
+		<paper-button raised class="next">
+			<core-icon icon="arrow-back"></core-icon>
+			Older
+		</paper-button>
+	</a>
+	{% endif %}
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" class="previous">
+		<paper-button raised class="previous">
+			<core-icon icon="arrow-forward"></core-icon>
+			Newer
+		</paper-button>
+	</a>
 	{% endif %}
 </div>
