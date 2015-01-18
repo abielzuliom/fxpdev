@@ -52,6 +52,21 @@ core-menu > core-item.core-selected {
   max-width:400px;
 }
 
+.device_content table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.device_content table tr.alt {
+  background-color: #f1f1f1;
+}
+
+.device_content table tr td {
+  padding: 10px;
+}
+
 .member_content {
   display: inline-block;
   min-width:calc(50% - 22px);
@@ -69,7 +84,41 @@ core-menu > core-item.core-selected {
   border-radius: 5px;
 }
 
+.obsolete_device {
+  display: inline-block;
+  min-width:192px;
+  max-width:192px;
+}
+
+img.obsolete {
+  width: 100%;
+}
+
+table.obsolete {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table.obsolete tr td{
+  padding: 3px 0;
+}
+
+@media only screen and (max-width: 1160px) {
+
+  .obsolete_device {
+    max-width:calc(33.33% - 23px);
+  }
+
+}
+
 @media only screen and (max-width: 960px) {
+
+  .obsolete_device {
+    max-width:calc(50% - 22px);
+    min-width:166px;
+  }
 
   .device_content {
     display: inline-block;
@@ -85,17 +134,10 @@ core-menu > core-item.core-selected {
 
 }
 
-.device_content table {
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+@media only screen and (max-width: 690px) {
 
-.device_content table tr.alt {
-  background-color: #f1f1f1;
-}
+  .obsolete_device {
+    max-width:290px;
+  }
 
-.device_content table tr td {
-  padding: 10px;
 }
