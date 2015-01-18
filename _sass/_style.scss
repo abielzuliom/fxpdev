@@ -117,7 +117,7 @@ table.obsolete tr td{
 
   .obsolete_device {
     max-width:calc(50% - 22px);
-    min-width:166px;
+    min-width:145px;
   }
 
   .device_content {
@@ -130,14 +130,6 @@ table.obsolete tr td{
     display: inline-block;
     min-width:100%;
     max-width:400px;
-  }
-
-}
-
-@media only screen and (max-width: 690px) {
-
-  .obsolete_device {
-    max-width:290px;
   }
 
 }
