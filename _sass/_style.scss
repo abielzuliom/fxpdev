@@ -3,23 +3,35 @@ body {
   font-weight: 300;
 }
 
-core-pages {
-  -webkit-user-select: none;
+h1, h2, h3, h4, h5 {
+  color: #009688;
 }
 
-core-pages > * {
-  border-radius: 5px;
-  font-size: 50px;
-  background-color: white;
+a {
+  text-decoration: none;
+  color: #009688;
+}
+
+a#toolbar {
+  color: white;
+}
+
+paper-button.more {
+  background: #009688;
+  color: white;
+}
+
+material-card.article {
+  color: inherit;
 }
 
 body /deep/ core-toolbar {
-  background-color: #03a9f4;
+  background-color: #009688;
   color: #fff;
 }
 
 core-menu {
-  color: #01579b;
+  color: #616161;
   margin: 10px 0 0 0;
 }
 
@@ -35,6 +47,10 @@ core-item a {
 
 core-menu > core-item.core-selected {
   background: #e1f5fe;
+}
+
+core-menu /deep/ core-icon {
+  color: #009688;
 }
 
 .content_padding_outer {
