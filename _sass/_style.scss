@@ -131,9 +131,13 @@ table.family_table tr td{
 
 @media only screen and (max-width: 960px) {
 
+.content_padding_outer {
+   margin: auto 10px;
+}
+
   .family_device {
-    max-width:calc(50% - 22px);
-    min-width:145px;
+    max-width:calc(50% - 12px);
+    min-width:130px;
   }
 
   .device_content {
@@ -143,9 +147,8 @@ table.family_table tr td{
   }
 
   .member_content {
-    display: inline-block;
-    min-width:100%;
-    max-width:400px;
+    max-width:calc(50% - 12px);
+    min-width:130px;
   }
 
 }
