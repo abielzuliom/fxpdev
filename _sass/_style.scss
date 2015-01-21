@@ -91,6 +91,10 @@ core-menu /deep/ core-icon {
   background-color: #f1f1f1;
 }
 
+.device_content table tr {
+  border: 0px;
+}
+
 .device_content table tr td {
   padding: 10px;
 }
@@ -129,7 +133,11 @@ table.family_table {
   border-spacing: 0;
 }
 
-table.family_table tr td{
+table.family_table tr, {
+    border-bottom: none;
+}
+
+table.family_table tr td {
   padding: 3px 0;
 }
 
