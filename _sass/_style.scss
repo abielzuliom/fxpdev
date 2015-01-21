@@ -16,6 +16,18 @@ a#toolbar {
   color: white;
 }
 
+table { 
+    border-collapse: collapse; 
+}
+
+tr {
+    border-bottom: 1px solid #009688;
+}
+
+td {
+  padding: 15px 30px;
+}
+
 paper-button.more {
   background: #009688;
   color: white;
