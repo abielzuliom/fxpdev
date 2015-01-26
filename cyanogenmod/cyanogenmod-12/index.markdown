@@ -3,4 +3,4 @@ layout: default
 title: CyanogenMod 12
 ---
 
-<h3>CyanogenMod 12</h3>
+### CyanogenMod 12
