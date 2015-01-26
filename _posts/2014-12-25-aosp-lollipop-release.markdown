@@ -3,6 +3,7 @@ layout: default
 title: "AOSP Lollipop release from FXP, just in time for Christmas!"
 author: AdFad666
 image: /media/posts/2014-12-25-aosp-lollipop-release.jpg
+date: "2014-12-25 12:00:00 +0100"
 video: VJX8VUk8dFM
 excerpt: We recently wrote about AOSP repos available from Sony Mobile for many Xperia devices. Today, just in time for Christmas, we are starting AOSP Lollipop nightly builds. All devices previously mentioned to get AOSP Lollipop...
 ---
