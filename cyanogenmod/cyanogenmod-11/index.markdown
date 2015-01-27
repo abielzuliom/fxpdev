@@ -56,4 +56,4 @@ title: CyanogenMod 11
 [FXP302](http://uploaded.net/f/4scey8) | [mirror](http://dfiles.eu/folders/4CKL3ILV2) |
 [FXP301](http://ul.to/f/a6xd2n) | [mirror](http://depositfiles.com/folders/VDH1OFGWC) |
 
-<p>Short link: <a title="" href="http://af6.eu/FXPCM11)af6.eu/FXPCM11</a><br />
+Short link: [af6.eu/FXPCM11](http://af6.eu/FXPCM11)
